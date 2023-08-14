@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a word game | subhadip</title>
+
+    <!-- Link css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="wrapper">
+        <h1>
+            Guess the Word
+        </h1>
+        <div class="content">
+            <input type="text" class="typing-input" maxlength="1">
+            <div class="inputs"></div>
+            <div class="details">
+                <p class="hint">Hint: <span></span></p>
+                <p class="guess-left">Remaining Guess: <span>10</span></p>
+                <p class="wrong-letter">Wrong letters: <span></span></p>
+            </div>
+            <button class="reset-btn">Reset Game</button>
+        </div>
+    </main>
+    <script src="./js/word.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
